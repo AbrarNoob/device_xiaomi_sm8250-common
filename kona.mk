@@ -447,6 +447,11 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-sm8250-libperfmgr
