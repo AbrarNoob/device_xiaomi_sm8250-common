@@ -23,14 +23,26 @@ vendor/lib/libssrec.so
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 
+<<<<<<< HEAD
 # Audio FX - OzoAudio
 system_ext/lib/libav_ozodecoder.so:vendor/lib/libav_ozodecoder.so
 system_ext/lib/libav_ozoencoder.so:vendor/lib/libav_ozoencoder.so
 system_ext/lib/libozoaudio.so:vendor/lib/libozoaudio.so
 system_ext/lib/libozowidening.so:vendor/lib/libozowidening.so
 system_ext/lib/soundfx/libozoprocessing.so:vendor/lib/soundfx/libozoprocessing.so
+=======
+# Audio FX AudioSphere
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+vendor/bin/audioflacapp
+vendor/bin/loadalgo
+>>>>>>> 9776ab4 (sm8250-common: Add support of Miui Dolby and MiSound)
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
