@@ -1,4 +1,4 @@
-# Unpinned blobs from munch-user 12 RKQ1.200826.002 V13.0.5.0.SLMMIXM release-keys
+# Unpinned blobs from munch-user 13 RKQ1.211001.001 V14.0.1.0.TLMMIXM release-keys
 # lmi: lmi-user 11 RKQ1.200826.002 V12.5.3.0.RJKMIXM release-keys
 
 # ADSP
@@ -165,7 +165,7 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM
-framework/tcmclient.jar
+system/framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -360,6 +360,7 @@ system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
+system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 -system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
@@ -454,7 +455,6 @@ vendor/etc/media_codecs_performance_c2.xml
 vendor/etc/media_codecs_performance_kona.xml
 vendor/etc/media_codecs_performance_kona_vendor.xml
 vendor/etc/media_codecs_system_default.xml
-vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/media_profiles.xml
 vendor/etc/media_profiles_kona.xml
 vendor/etc/media_profiles_vendor.xml
@@ -554,8 +554,8 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 
 # QMI
-etc/permissions/privapp-permissions-qti.xml
-etc/sysconfig/qti_whitelist.xml
+system/etc/permissions/privapp-permissions-qti.xml
+system/etc/sysconfig/qti_whitelist.xml
 vendor/bin/irsc_util
 vendor/bin/qmipriod
 vendor/etc/init/qmipriod.rc
