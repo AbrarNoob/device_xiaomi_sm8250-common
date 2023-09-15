@@ -434,4 +434,7 @@
 
     <!-- Default value for performant auth feature. -->
     <bool name="config_performantAuthDefault">true</bool>
+    
+    <!-- Whether to enable Lineage Fast Charge Prefernece -->
+    <bool name="config_lineageFastChargeSupported">true</bool>
 </resources>
