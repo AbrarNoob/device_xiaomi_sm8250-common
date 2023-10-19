@@ -23,6 +23,12 @@ vendor/lib/libaudcal.so
 vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 
+# Protobuff
+vendor/lib/libprotobuf-cpp-full-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libprotobuf-cpp-full-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so

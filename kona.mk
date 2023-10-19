@@ -159,7 +159,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libgui_vendor \
-    libstdc++.vendor \
+    libstdc++_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -413,7 +413,8 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl-xiaomi \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-service \
+    android.frameworks.sensorservice@1.0.vendor
 
 PRODUCT_PACKAGES += \
     libsensorndkbridge
@@ -468,7 +469,7 @@ PRODUCT_COPY_FILES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     hostapd \
     libwpa_client \
     libwifi-hal-ctrl \
