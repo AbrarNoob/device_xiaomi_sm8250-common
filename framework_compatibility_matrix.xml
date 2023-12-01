@@ -7,6 +7,14 @@
             <instance>gnss_vendor</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.audio.sounddose</name>
+        <version>1</version>
+        <interface>
+            <name>ISoundDoseFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal> 
     <hal format="hidl" optional="true">
         <name>android.hardware.radio</name>
         <version>1.0-2</version>
@@ -298,6 +306,14 @@
             <instance>deviceinfo</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.light</name>
+        <version>2</version>
+        <interface>
+            <name>ILights</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.radio.lpa</name>
         <version>1.0-1</version>
@@ -455,6 +471,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.bluetooth.audio</name>
+        <version>3</version>
         <interface>
             <name>IBluetoothAudioProviderFactory</name>
             <instance>default</instance>
@@ -468,6 +485,14 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>android.hardware.nfc</name>
+        <version>1</version>
+        <interface>
+            <name>INfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>android.hardware.drm</name>
         <interface>
             <name>IDrmFactory</name>
@@ -475,7 +500,8 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
-        <name>android.hardware.power</name>
+	<name>android.hardware.power</name>
+        <version>2</version>
         <interface>
             <name>IPower</name>
             <instance>default</instance>
@@ -505,8 +531,9 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.wifi.supplicant</name>
-        <interface>
-            <name>ISupplicant</name>
+	<version>2</version>
+	<interface>
+	    <name>ISupplicant</name>
             <instance>default</instance>
         </interface>
     </hal>
